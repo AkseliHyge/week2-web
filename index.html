@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form>
+        <label for="Username"></label>
+        <input type="text" id="input-username" placeholder="First name">
+
+        <div>
+            <br> <!-- tekee välin ja laittaa formit allekkain-->
+        </div>
+
+        <label for="email"></label>
+        <input type="text" id="input-email" placeholder="example@gmail.com">
+
+        <div>
+            <br> <!-- tekee välin ja laittaa formit allekkain-->
+        </div>
+
+        <label for="input-admin">
+            <input type="checkbox" id="input-admin">
+            Admin status
+        </label>
+
+        <button type="submit" id="submit-data">Add User</button>
+        
+
+    </form>
+
+    <br>
+    <table>
+        <thead>
+            <tr bgcolor="grey">
+                <th>Username</th>
+                <th>Email</th>
+                <th>Admin</th>
+            </tr>
+        </thead>
+
+        <tbody id="table-body">
+            <tr bgcolor="lightgray" align="center">
+                <td>Mauno</td>
+                <td>gmail</td>
+                <td>X</td>
+            </tr>
+            <tr bgcolor="lightgray" align="center">
+                <td>Frans</td>
+                <td>gmail</td>
+                <td>-</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <form>
+
+        <button type="empty" id="empty-table">Empty table</Table></button>
+    </form>
+
+</body>
+</html>
