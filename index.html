@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <form>
+<fieldset>
         <label for="Username"></label>
         <input type="text" id="input-username" placeholder="First name">
 
@@ -28,36 +28,37 @@
         </label>
 
         <button type="submit" id="submit-data">Add User</button>
-        
+        <button type="empty" id="empty-table">Empty table</button>
+</fieldset>   
 
-    </form>
+
 
     <br>
-    <table border="1">
+    <table id="table">
         <thead>
-            <tr bgcolor="grey">
+            <tr>
                 <th>Username</th>
                 <th>Email</th>
                 <th>Admin</th>
             </tr>
         </thead>
-        <tbody id="table-body">
-            <tr bgcolor="lightgray" align="center">
+        <tbody id="user-table">
+            <tr>
                 <td>Webmaster</td>
                 <td>example@gmail.com</td>
                 <td>X</td>
             </tr>
-            <tr bgcolor="lightgray" align="center">
+            <tr>
                 <td>User123</td>
                 <td>user123@gmail.com</td>
                 <td>-</td>
             </tr>
-            <tr bgcolor="lightgray" align="center">
+            <tr>
                 <td>AnotherUser222</td>
                 <td>another@gmail.com</td>
                 <td>-</td>
             </tr>
-            <tr bgcolor="lightgray" align="center">
+            <tr>
                 <td>MaukkaUser</td>
                 <td>maukkakalpianen@gmail.com</td>
                 <td>X</td>
@@ -67,10 +68,6 @@
     </table>
     <br>
 
-    <form>
-
-        <button type="empty" id="empty-table">Empty table</Table></button>
-    </form>
-
 </body>
+<script src="js/basic.js"></script>
 </html>
